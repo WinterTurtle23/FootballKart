@@ -1,0 +1,128 @@
+*{
+	font-family:garamond;
+}
+
+.box{
+	box-sizing: border-box;
+}
+
+@viewport{
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+
+@-ms-viewport{
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+
+body{
+	  background-color: #2D283E ;
+	  background-repeat:no-repeat;
+	  background-size:cover;
+	  color: #000;
+	  margin-right:auto;
+	  margin-left:auto;
+	  min-height:100px;
+}
+
+header {
+  padding: 3px;
+  background-color: #564F6F;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #564F6F;
+}
+
+#textbox {display:flex; }
+
+.left{
+	flex:1;
+	text-align:left;
+	width=33.33333%;
+}
+
+.right{
+	flex:1;
+	text-align:right;
+	width=33.33333%;
+}
+.center{
+	flex:1;
+	text-align:center;
+	width=33.33333%;
+}
+
+#webname{
+	text-align:center;
+	font-size:400%;
+	color:red;
+}
+
+
+#welcome{
+	font-size:170%;
+	
+}
+
+#submitPage{
+	font-size:300%;
+	text-align:center;
+	
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #D1D7E0;
+}
+
+.card:hover{
+	transform: translate(0px, -8px);
+    transition: .6s;
+}
+
+.card button {
+  padding: 12px;
+  color: white;
+  background-color: #000;
+}
+
+.columnCheckout {
+  float: left;
+  width: 50%;
+  margin-top: 8%;
+  margin-left:25%;
+  margin-right:25%;   
+  padding: 16px;
+}
+
+.cardCheckout{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.cardCheckout button {
+  padding: 12px;
+  color: white;
+  background-color: #000;
+}
+
+#paraCheckout{
+	font-size:130%;
+}
+
+#checkoutInput{
+	font-size:130%;
+}
